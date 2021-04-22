@@ -62,6 +62,5 @@ RUN make && \
     cd ..
 
 COPY . .
-RUN pip3 install -r requirements.txt
-CMD python3 app.py
+# run your code 
     
